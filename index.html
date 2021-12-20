@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Cafe Unlimited - Home
+    </title>
+    <style>
+        p{
+            
+            font-family: sans-serif;
+            color: darkslategray;
+        }
+        h1{
+            font-family: fantasy;
+            color: #6b7a88;
+        }
+        li{
+            font-family: sans-serif;
+            color: #00373d;
+        }
+    </style>
+    <script>
+        function bigger(){
+            document.getElementById('body').style.fontSize='x-large';
+        }
+        function smaller(){
+            document.getElementById('body').style.fontSize='medium';
+        }
+    </script>
+    <script>
+    function showDateAndTime(){
+        document.getElementById("current-date").innerHTML=Date();
+    }
+    </script>
+</head>
+<body id='body' style="background-image: url(images/background.png)" onload="showDateAndTime()">
+<p id="current-date"></p> 
+<button type="button" onclick="bigger()">Bigger</button>
+<button type="button" onclick="smaller()">Smaller</button> 
+<p>
+<img src="images/banner.png" alt="Cafe Unlimited - Home">   
+</p>
+    <!--  Audio  -->
+    <audio controls autoplay>
+    <source src="media/music.mp3" type="audio/mpeg">
+    </audio>
+<p>
+    <!--  Video  -->
+    <video width="320" height="240" controls>
+    <source src="media/breakfast.mp4" type="video/mp4">    
+    </video>
+</p>
+    <img src="images/pancakes.jpg" alt="Pancakes">
+    <img src="images/muffin.jpg" alt="Muffin">
+
+<h1>
+    <p style="background: slategray"; font-weight:bolder>
+    <a href="index.html">Home</a>
+    <a href="breakfast.html">Breakfast</a>
+</p>
+    Welcome
+</h1>
+<p>
+    Welcome to Cafe Unlimited. We serve award-winning breakfasts and lunches, with unlimited coffee, tea, and soft drinks. Freshly baked muffins, signature omelets, healthy salads, delicious burgers and hearty sandwiches are just some of the delicious items on our menu. We were voted <span style="color: red; font-style: italic">the #1 Breakfast and Lunch restaurant</span> downtown!
+</p>
+<p>
+    We want to make you <span style="color: red;font-style: italic">feel at home</span> from the minute you walk in the door. Be part of the Cafe Unlimited family! Have a great meal, relax, socialize, and come back again soon!
+</p>
+<p>
+   We offer delivery on <a href="http://ubereats.com" target="_blank">Ubereats</a>. Download the app and place your order today. Please contact us about catering services.
+</p>
+<p>    
+    We are located at 20 Channel Center Street in Boston, MA. 
+    <div>
+     <iframe width="500" height="400" frameborder="0" src="https://www.bing.com/maps/embed?h=400&w=500&cp=42.34633361345379~-71.05585813522339&lvl=16&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+     </iframe>
+     <div style="white-space: nowrap; text-align: center; width: 500px; padding: 6px 0;">
+        <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=42.34633361345379~-71.05585813522339&amp;sty=r&amp;lvl=16&amp;FORM=MBEDLD">檢視較大的地圖</a> &nbsp; | &nbsp;
+        <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=42.34633361345379~-71.05585813522339&amp;sty=r&amp;lvl=16&amp;rtp=~pos.42.34633361345379_-71.05585813522339____&amp;FORM=MBEDLD">取得路線</a>
+    </div>
+</div>
+<p>
+    We are open:
+</p>
+<p>
+    Saturday and Sunday, 7 am to 2 pm
+</p>
+<p> 
+    Monday through Friday, 6 am to 2 pm
+</p>  
+Visit our contact page for directions and contact information.
+
+<h1>
+    Find Us, Follow Us
+</h1>
+<p>
+    Follow us on <a href="http://facebook.com" target="_self">Facebook</a> and <a href="http://twitter.com" target="_self">Twitter</a>. Check out our reviews on <a href="http://yelp.com" target="_blank">Yelp</a>.
+</p>
+<p>
+    Find us in Channel Center.
+</p>
+
+<ul>
+<li>Cafe Unlimited</li>
+<li>617-555-1234</li>
+<li>Cafeunlimited@example.com</li>
+</ul>
+  
+</body>
+</html>
